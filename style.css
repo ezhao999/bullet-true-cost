@@ -1,0 +1,164 @@
+﻿@font-face {
+    font-family: Inconsolata;
+    src: url('Inconsolata/Inconsolata-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url('Inconsolata/Inconsolata-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url('Inconsolata/Inconsolata-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+h1 {
+    font-family: Inconsolata;
+    font-weight: 700;
+}
+h2 {
+    font-family: Inconsolata;
+    font-weight: 700;
+}
+h3 {
+    font-family: Inconsolata;
+    font-weight: 700;
+}
+h4 {
+    font-family: Inconsolata;
+    font-weight: 500;
+}
+h5 {
+    font-family: Inconsolata;
+    font-weight: 500;
+}
+h6 {
+    font-family: Inconsolata;
+    font-weight: 500;
+}
+
+p {
+    font-family: Inconsolata;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden;*/
+    background-color: #0B0B0B;
+    font-size: 32px;
+    color: white;
+}
+.outerwrapper {
+    min-height: 95vh;
+    max-height: 100vh; /*DO NOT CHANGE TO MIN HEIGHT*/
+}
+.fullsize {
+    width: 100vw;
+    height: 100vh;
+}
+.sevenfivepercent {
+    width: 100vw;
+    height: 75vh;
+}
+
+.sideways {
+    display: inline-flex;
+    align-items: center;
+}
+.titlesection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headingscroll {
+    align-self: center;
+}
+
+.headingoffset {
+    position:relative;
+    margin-left: -50%;
+    margin-right: 0;
+}
+.stickyheading {
+    position:sticky;
+    left: 50vw;
+/*    display: inline-block;*/
+    transform: translateX(-50%);
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.bullet {
+    /*display: none;*/
+    max-height: 10%;
+    max-width: 10%;
+}
+.bulletinfo {
+    width:4000px;
+}
+.bulletfire {
+    width:240000px;
+}
+
+.infosection {
+    height: 75vh;
+    border-color: white;
+    border-style: solid;
+}
+
+.infosection shot {
+    display: flex;
+}
+.infotext {
+    text-align: center;
+    width: 75vw;
+}
+
+.infoimage {
+    max-height: 25vh;
+}
+
+.infobox {
+    z-index: 1;
+    width:7500px;
+    margin-left:7500px;
+}
+
+.testwrapper {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    transform: translateX(-50%);
+    left: 50vw;
+}
+
+.counter {
+    position: sticky;
+    left: 50vw;
+    display: inline-flex;
+    transform: translateX(-50%);
+    font-family: Inconsolata;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: -97.5%;
+    margin-right: 0;
+}
